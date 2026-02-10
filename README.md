@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛒 TechStore - E-Commerce Platform
 
 A modern, full-stack e-commerce application for tech products built with React, Node.js, Express, and MongoDB.
@@ -201,3 +202,6 @@ Your Name - [Your GitHub](https://github.com/yourusername)
 ---
 
 **Note:** This is a learning project. Do not use in production without proper security audits and enhancements.
+=======
+# Ecommerce-Tech-Store
+>>>>>>> 124e51f7b7993b53afca28f3a2500e8c63a10f3d
