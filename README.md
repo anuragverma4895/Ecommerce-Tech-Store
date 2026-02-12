@@ -5,7 +5,6 @@
 ![Express](https://img.shields.io/badge/Express.js-API-black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Database-darkgreen)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-UI-38bdf8)
-![License](https://img.shields.io/badge/License-MIT-purple)
 
 A modern **full-stack e-commerce web application** for tech products built with **React, Node.js, Express, and MongoDB**.
 
@@ -55,17 +54,6 @@ tech-store/
 │   └── utils/            # Backend utilities
 └── public/               # Static assets
 ```
-
-Frontend: http://localhost:3000
-Backend: http://localhost:5000
-
-### Database (MongoDB Atlas)
-
-1. Create cluster at mongodb.com/cloud/atlas
-2. Create database user
-3. Whitelist IP addresses (0.0.0.0/0 for any IP)
-4. Get connection string
-5. Update `MONGODB_URI` in backend `.env`
 
 ## 🔑 API Endpoints
 
