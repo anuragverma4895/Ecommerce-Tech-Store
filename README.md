@@ -1,7 +1,13 @@
-<<<<<<< HEAD
-# 🛒 TechStore - E-Commerce Platform
+# 🛒 Ecommerce Tech Store
 
-A modern, full-stack e-commerce application for tech products built with React, Node.js, Express, and MongoDB.
+![React](https://img.shields.io/badge/React-18-blue)
+![Node](https://img.shields.io/badge/Node.js-Backend-green)
+![Express](https://img.shields.io/badge/Express.js-API-black)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-darkgreen)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-UI-38bdf8)
+![License](https://img.shields.io/badge/License-MIT-purple)
+
+A modern **full-stack e-commerce web application** for tech products built with **React, Node.js, Express, and MongoDB**.
 
 ## ✨ Features
 
@@ -50,100 +56,8 @@ tech-store/
 └── public/               # Static assets
 ```
 
-## 🛠️ Installation & Setup
-
-### Prerequisites
-- Node.js (v18 or higher)
-- MongoDB Atlas account
-- Git
-
-### 1. Clone the Repository
-
-```bash
-git clone <your-repo-url>
-cd tech-store
-```
-
-### 2. Install Dependencies
-
-**Frontend:**
-```bash
-npm install
-```
-
-**Backend:**
-```bash
-cd backend
-npm install
-```
-
-### 3. Environment Variables
-
-**Frontend:** Create `.env` in root directory:
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
-**Backend:** Create `.env` in `backend/` directory:
-```env
-PORT=5000
-MONGODB_URI=your_mongodb_atlas_connection_string
-JWT_SECRET=your_super_secret_jwt_key
-NODE_ENV=development
-```
-
-### 4. Seed Database (Optional)
-
-```bash
-cd backend
-npm run seed
-```
-
-This creates sample products and an admin user:
-- Email: admin@techstore.com
-- Password: admin123
-
-### 5. Run the Application
-
-**Backend:**
-```bash
-cd backend
-npm run dev
-```
-
-**Frontend (in new terminal):**
-```bash
-npm run dev
-```
-
 Frontend: http://localhost:3000
 Backend: http://localhost:5000
-
-## 📦 Deployment
-
-### Frontend (Vercel)
-
-1. Push code to GitHub
-2. Connect repository to Vercel
-3. Configure build settings:
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-   - Root Directory: `./`
-4. Add environment variable:
-   - `VITE_API_URL`: Your backend URL
-
-### Backend (Render/Railway)
-
-1. Create new Web Service
-2. Connect GitHub repository
-3. Configure:
-   - Root Directory: `backend`
-   - Build Command: `npm install`
-   - Start Command: `npm start`
-4. Add environment variables:
-   - `MONGODB_URI`
-   - `JWT_SECRET`
-   - `NODE_ENV=production`
 
 ### Database (MongoDB Atlas)
 
@@ -191,17 +105,12 @@ Backend: http://localhost:5000
 - Update products
 - Delete products
 
-## 📝 License
-
-MIT
-
 ## 👨‍💻 Author
 
-Your Name - [Your GitHub](https://github.com/yourusername)
+Your Name - (https://github.com/anuragverma4895)
 
 ---
 
 **Note:** This is a learning project. Do not use in production without proper security audits and enhancements.
-=======
-# Ecommerce-Tech-Store
->>>>>>> 124e51f7b7993b53afca28f3a2500e8c63a10f3d
+
+#Happy Coding
