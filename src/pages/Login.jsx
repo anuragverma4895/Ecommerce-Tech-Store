@@ -24,7 +24,13 @@ const Login = () => {
     
     setLoading(false);
     if (result.success) {
-      navigate('/');
+      // Check if logged in user is admin
+      const userData = JSON.parse(localStorage.getItem('user'));
+      if (userData && userData.isAdmin) {
+        navigate('/admin');
+      } else {
+        navigate('/');
+      }
     } else {
       setError(result.error);
     }
