@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # 🛒 Ecommerce Tech Store
-=======
-# 🛒 TechStore - E-Commerce Platform
->>>>>>> 9f2300c (added admin function)
 
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Node](https://img.shields.io/badge/Node.js-Backend-green)
@@ -59,8 +55,6 @@ tech-store/
 └── public/               # Static assets
 ```
 
-<<<<<<< HEAD
-=======
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
