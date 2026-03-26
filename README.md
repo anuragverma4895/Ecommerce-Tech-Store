@@ -175,7 +175,6 @@ After logging in as admin, you will be redirected to the **Admin Dashboard** at 
 4. Get connection string
 5. Update `MONGODB_URI` in backend `.env`
 
->>>>>>> 9f2300c (added admin function)
 ## 🔑 API Endpoints
 
 ### Authentication
@@ -220,17 +219,11 @@ After logging in as admin, you will be redirected to the **Admin Dashboard** at 
 
 ## 👨‍💻 Author
 
-<<<<<<< HEAD
 Your Name - (https://github.com/anuragverma4895)
-=======
 Your Name - [Your GitHub](https://github.com/anuragverma4895)
->>>>>>> 9f2300c (added admin function)
 
 ---
 
 **Note:** This is a learning project. Do not use in production without proper security audits and enhancements.
-<<<<<<< HEAD
 
 #Happy Coding
-=======
->>>>>>> 9f2300c (added admin function)
